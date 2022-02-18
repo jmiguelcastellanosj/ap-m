@@ -26,8 +26,8 @@ function App() {
           <Router>
             <Routes>
                 <Route path="/ap-m/" element={<Dashboard />} />
-                <Route path="/ap-m/add" element={<AddAppointmentForm />} />
-                <Route path="/ap-m/edit" element={<EditAppointment />} />
+                <Route path="/add" element={<AddAppointmentForm />} />
+                <Route path="/edit" element={<EditAppointment />} />
             </Routes>
           </Router>
         </AppUpdateContext.Provider>
