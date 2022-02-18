@@ -12,8 +12,8 @@ function Appointment({ appointment }) {
   const { updateAppointments } = useContext(AppUpdateContext)
 
   const deleteAppointment = async (id) => {
-    await fetch(`http://localhost:5000/appointments/${id}`, {
-    // await fetch(`https://my-json-server.typicode.com/jmiguelcastellanosj/appt-mngr/appointments/${id}`, {
+    // await fetch(`http://localhost:5000/appointments/${id}`, {
+    await fetch(`https://my-json-server.typicode.com/jmiguelcastellanosj/appt-mngr/appointments/${id}`, {
       method: "DELETE"
     })
     updateAppointments(appointments.filter( (appt) => appt.id !== id ))

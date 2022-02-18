@@ -27,8 +27,8 @@ function AddAppointmentForm() {
 
   // add single appointment obj to db
   const addAppt = async (appt) => {
-    const res = await fetch("http://localhost:5000/appointments", {
-    // const res = await fetch("https://my-json-server.typicode.com/jmiguelcastellanosj/ap-m/appointments", {
+    // const res = await fetch("http://localhost:5000/appointments", {
+    const res = await fetch("https://my-json-server.typicode.com/jmiguelcastellanosj/ap-m/appointments", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify(appt)

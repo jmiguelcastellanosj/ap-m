@@ -23,8 +23,8 @@ function EditAppointment() {
 
   //fetch appointment (SINGULAR)
   const fetchAppointment = async (id) => {
-    const res = await fetch(`http://localhost:5000/appointments/${id}`);
-    // const res = await fetch(`https://my-json-server.typicode.com/jmiguelcastellanosj/ap-m/appointments/${id}`);
+    // const res = await fetch(`http://localhost:5000/appointments/${id}`);
+    const res = await fetch(`https://my-json-server.typicode.com/jmiguelcastellanosj/ap-m/appointments/${id}`);
     const data = await res.json();
 
     return data;
@@ -53,8 +53,8 @@ function EditAppointment() {
 
   useEffect(() => {
     (async function fetchStuff() {
-      const res = await fetch(`http://localhost:5000/appointments/${appToEdit}`)
-      // const res = await fetch(`https://my-json-server.typicode.com/jmiguelcastellanosj/ap-m/appointments/${appToEdit}`)
+      // const res = await fetch(`http://localhost:5000/appointments/${appToEdit}`)
+      const res = await fetch(`https://my-json-server.typicode.com/jmiguelcastellanosj/ap-m/appointments/${appToEdit}`)
       const data = await res.json()
       // console.log("fetchStuff",data)
       // console.log(data.date[0], data.date[1], data.date[2]) //m d a
@@ -71,8 +71,8 @@ function EditAppointment() {
   }, [])
   
   const updateAppt = async (appt) => {
-    await fetch(`http://localhost:5000/appointments/${appToEdit}`,
-    // await fetch(`https://my-json-server.typicode.com/jmiguelcastellanosj/ap-m/appointments/${appToEdit}`,
+    // await fetch(`http://localhost:5000/appointments/${appToEdit}`,
+    await fetch(`https://my-json-server.typicode.com/jmiguelcastellanosj/ap-m/appointments/${appToEdit}`,
       {
         method: "PUT",
         headers: { "Content-type": "application/json" },
