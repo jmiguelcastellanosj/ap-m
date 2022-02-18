@@ -7,8 +7,8 @@ function Dashboard() {
   const {updateAppointments} = useContext(AppUpdateContext)
 
   const fetchAppointmentList = async () => {
-    const res = await fetch("http://localhost:5000/appointments");
-    // const res = await fetch("https://my-json-server.typicode.com/jmiguelcastellanosj/appt-mngr/appointments");
+    // const res = await fetch("http://localhost:5000/appointments");
+    const res = await fetch("https://my-json-server.typicode.com/jmiguelcastellanosj/ap-m/appointments");
     const data = await res.json();
 
     return data;
