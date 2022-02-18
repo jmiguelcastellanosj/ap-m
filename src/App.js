@@ -25,9 +25,9 @@ function App() {
         <AppUpdateContext.Provider value={{ updateAppointments, updateAppToEdit }}>
           <Router>
             <Routes>
-                <Route path="/" element={<Dashboard />} />
-                <Route path="/add" element={<AddAppointmentForm />} />
-                <Route path="/edit" element={<EditAppointment />} />
+                <Route path="/ap-m/" element={<Dashboard />} />
+                <Route path="/ap-m/add" element={<AddAppointmentForm />} />
+                <Route path="/ap-m/edit" element={<EditAppointment />} />
             </Routes>
           </Router>
         </AppUpdateContext.Provider>
