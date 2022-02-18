@@ -76,7 +76,7 @@ function AddAppointmentForm() {
       <div className="apptBg" style={formStyle}>
         <header style={headerStyle}>
           <h2>add appointment form</h2>
-          <Link to="/" style={{textDecoration: "none", color: "lightgray"}}><div className={"textAnim"}>cancel</div></Link>
+          <Link to="/ap-m/" style={{textDecoration: "none", color: "lightgray"}}><div className={"textAnim"}>cancel</div></Link>
         </header>
       
         <form onSubmit={onSubmit}>
