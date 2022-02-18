@@ -28,7 +28,7 @@ function Appointment({ appointment }) {
     // console.log(appointment.id, typeof(appointment.id))
     updateAppToEdit(appointment.id)
     
-    navigateTo("/edit")
+    navigateTo("/ap-m/edit")
   }
   //
 

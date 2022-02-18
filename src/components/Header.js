@@ -8,7 +8,7 @@ function Header() {
   const navigateTo = useNavigate();
   const onClick = () => {
     
-    navigateTo("/add")
+    navigateTo("/ap-m/add")
   }
   
   return (
