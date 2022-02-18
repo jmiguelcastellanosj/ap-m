@@ -44,7 +44,7 @@
     },
     {
       "title": "gafa",
-      "details": "gyer45y",
+      "details": "howdy ho",
       "important": true,
       "date": [
         2,
@@ -72,7 +72,7 @@
     },
     {
       "title": "Somethingddddddddd",
-      "details": "Description of somethingyeeeeeeeeeeeeeey",
+      "details": "Description of some thingy",
       "important": true,
       "date": [
         2,
@@ -83,20 +83,6 @@
         "pm"
       ],
       "id": 7
-    },
-    {
-      "title": "yrte",
-      "details": "",
-      "important": false,
-      "date": [
-        10,
-        23,
-        2025,
-        "01",
-        "00",
-        "am"
-      ],
-      "id": 8
     }
   ]
 }
