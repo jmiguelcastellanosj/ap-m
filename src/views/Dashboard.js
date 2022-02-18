@@ -25,7 +25,7 @@ function Dashboard() {
   
   return (
     <div style={dashboardStyle}>
-      <p>hegh</p>
+      <p style={{color: "white"}}>heghH</p>
       <Header />
       <AppointmentList />
     </div>
