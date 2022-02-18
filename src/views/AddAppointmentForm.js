@@ -68,7 +68,7 @@ function AddAppointmentForm() {
     // setImportant(false)
     // setDate([])
 
-    navigateTo("/")
+    navigateTo("/ap-m/")
   }
 
   return (

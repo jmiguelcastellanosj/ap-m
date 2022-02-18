@@ -97,7 +97,7 @@ function EditAppointment() {
       hr,mn,ampm
     ]})
 
-    navigateTo("/")
+    navigateTo("/ap-m/")
   }
   
   return (
