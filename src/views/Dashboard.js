@@ -25,6 +25,7 @@ function Dashboard() {
   
   return (
     <div style={dashboardStyle}>
+      <p>hegh</p>
       <Header />
       <AppointmentList />
     </div>
