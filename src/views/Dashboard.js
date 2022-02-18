@@ -25,7 +25,7 @@ function Dashboard() {
   
   return (
     <div style={dashboardStyle}>
-      <p style={{color: "white"}}>hegh</p>
+      {/* <p style={{color: "white"}}>hegh</p> */}
       <Header />
       <AppointmentList />
     </div>
